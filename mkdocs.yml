@@ -1,0 +1,19 @@
+site_name: Supplier Analytics
+site_url: http://iungo-infomanager-supplierAnalytics-docs
+
+nav:
+  - Home: index.md
+
+
+plugins:
+    - search
+    - with-pdf
+
+theme: 
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+use_directory_urls: false
